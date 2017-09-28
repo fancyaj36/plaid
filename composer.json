@@ -1,0 +1,28 @@
+{
+    "name": "aliasproject/plaid",
+    "description": "Plaid API Client for PHP",
+    "keywords": [
+        "aliasproject",
+        "plaid"
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "php": ">=7.0",
+        "phpunit/phpunit": "5.4.*"
+    },
+    "homepage": "https://github.com/aliasproject/plaid",
+    "license": "MIT",
+    "authors": [
+        {
+          "name": "Alias Project",
+          "homepage": "https://github.com/aliasproject/plaid/contributors"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AliasProject\\Plaid\\": "src/AliasProject/Plaid/"
+        }
+    },
+}
